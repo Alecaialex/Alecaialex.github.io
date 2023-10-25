@@ -12,20 +12,20 @@
     }
 
     function tagsGenerator() {
-        var skillsJavascript = ['Javascript', 'AngularJs', 'Angular +2', 'Express', 'Nodejs', 'Karma', 'jquery', 'Grunt', 'Gulp', 'Sinon', 'Chai', 'Mocha', 'Jasmine', 'Protractor', 'Chrome Extensions', 'Ionic', 'React native', 'Typescript', 'Cordova', 'React', 'Redux'],
-            skillsPhp = ['PHP', 'Zend Framework', 'Laravel', 'phpUnit', 'composer', 'poo', 'Maven', 'ant', 'Jbehave', 'Selenium', 'Java', 'MySQL', 'mongodb', 'Rest services', 'Python', 'Django', 'Ruby', 'HapiJs'],
-            skillsOthers = ['HTML5', 'CSS3', 'less', 'sass', 'git', 'perforce', 'Heroku', 'Codeship', 'Bitbucket', 'Jenkins', 'Bower', 'Atlassian tools', 'Agile methodology', 'Responsive design', 'Jade', 'WebPack'],
+        var skillsPython = ['Python', 'Django', 'Flask', 'FastAPI', 'PyQt', 'Tkinter', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'PyTorch', 'OpenCV', 'MySQL', 'PostgreSQL', 'SQLite', 'RESTful APIs', 'Web scraping'],
+            skillsHacking = ['Penetration Testing', 'Network Scanning', 'Vulnerability Assessment', 'Exploit Development', 'Metasploit', 'Wireshark', 'Burp Suite', 'Nmap', 'SQL Injection', 'Cross-Site Scripting (XSS)', 'Cross-Site Request Forgery (CSRF)', 'OWASP Top Ten', 'Web Application Security', 'Reverse Engineering', 'Malware Analysis', 'Digital Forensics', 'Cryptography', 'Kali Linux', 'Python Scripting for Hacking', 'Ethical Hacking Methodologies', 'Security Assessments'],
+            skillsOthers = ['Linux', 'HTML5', 'CSS3', 'git', 'Heroku'],
             colors = ['btn-info', 'btn-success', 'btn-danger', 'btn-primary', 'btn-warning'],
             i = 0;
 
-        $.each(skillsJavascript, function(key, value) {
+        $.each(skillsPython, function(key, value) {
             if (i === 5) {
                 i = 0;
             }
             $('.tags.skills-1').append('<div class="tag label  ' + colors[i] + ' lg"><span>' + value + '</span></div>')
             i++;
         });
-        $.each(skillsPhp, function(key, value) {
+        $.each(skillsHacking, function(key, value) {
             if (i === 5) {
                 i = 0;
             }
