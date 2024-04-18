@@ -12,8 +12,8 @@
     }
 
     function tagsGenerator() {
-        var skillsPython = ['Python', 'Django', 'Flask', 'FastAPI', 'PyQt', 'Tkinter', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'PyTorch', 'OpenCV', 'MySQL', 'PostgreSQL', 'SQLite', 'RESTful APIs', 'Web scraping'],
-            skillsHacking = ['Penetration Testing', 'Network Scanning', 'Vulnerability Assessment', 'Exploit Development', 'Metasploit', 'Wireshark', 'Burp Suite', 'Nmap', 'SQL Injection', 'Cross-Site Scripting (XSS)', 'Cross-Site Request Forgery (CSRF)', 'OWASP Top Ten', 'Web Application Security', 'Reverse Engineering', 'Malware Analysis', 'Digital Forensics', 'Cryptography', 'Kali Linux', 'Python Scripting for Hacking', 'Ethical Hacking Methodologies', 'Security Assessments'],
+        var skillsPython = ['Python', 'Django', 'Flask', 'FastAPI', 'PyQt', 'Tkinter', 'NumPy', 'Pandas', 'Matplotlib', 'TensorFlow', 'Keras', 'PyTorch', 'OpenCV', 'MySQL', 'PostgreSQL', 'SQLite', 'RESTful APIs', 'Web scraping'],
+            skillsHacking = ['Penetration Testing','jasdj', 'Network Scanning', 'Vulnerability Assessment', 'Exploit Development', 'Metasploit', 'Wireshark', 'Burp Suite', 'Nmap', 'SQL Injection', 'Cross-Site Scripting (XSS)', 'Cross-Site Request Forgery (CSRF)', 'OWASP Top Ten', 'Web Application Security', 'Reverse Engineering', 'Malware Analysis', 'Digital Forensics', 'Cryptography', 'Kali Linux', 'Python Scripting for Hacking', 'Ethical Hacking Methodologies', 'Security Assessments'],
             skillsOthers = ['Linux', 'HTML5', 'CSS3', 'git', 'Heroku'],
             colors = ['btn-info', 'btn-success', 'btn-danger', 'btn-primary', 'btn-warning'],
             i = 0;
