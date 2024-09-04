@@ -19,7 +19,7 @@ function updateLoadingBar() {
     if (loadingIndex < loadingBarLength) {
         setTimeout(updateLoadingBar, 100); // Adjust loading speed here
     } else {
-        setTimeout(showMainContent, 500); // Delay before showing main content
+        setTimeout(showMainContent, 200); // Delay before showing main content
     }
 }
 
@@ -33,15 +33,15 @@ function typeText() {
     if (index < text.length) {
         textElement.textContent += text[index];
         index++;
-        setTimeout(typeText, 50); // Adjust typing speed here
+        setTimeout(typeText, 47); // Adjust typing speed here
     } else {
-        setTimeout(showSubtext, 500); // Delay before showing subtitle
+        setTimeout(showSubtext, 100); // Delay before showing subtitle
     }
 }
 
 function showSubtext() {
     subtextElement.classList.remove('hidden');
-    setTimeout(showButtons, 500); // Delay before showing buttons
+    setTimeout(showButtons, 100); // Delay before showing buttons
 }
 
 function showButtons() {
