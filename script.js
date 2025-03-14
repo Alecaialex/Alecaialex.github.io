@@ -5,7 +5,7 @@ const textElement = document.getElementById('text');
 const subtextElement = document.getElementById('subtext');
 const buttonsElement = document.getElementById('buttons');
 
-const text = 'C:\\> Alejandro Sanz: Especialista en soporte técnico y ciberseguridad...\n\nC:\\> Estudiante de grado superior (DAM) con grado medio (SMR)...\n\n\n\n';
+const text = 'C:\\> Alejandro Sanz\n\nC:\\> Estudiante de grado superior (DAM) con grado medio (SMR)...\n\n\n\n';
 
 let index = 0;
 let loadingIndex = 0;
